@@ -728,7 +728,9 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduadultos #microsite_panel .slide .pane-content > .menu {
-  background-color: #eef8f8 !important; }
+  background-color: #e97117 !important;
+  display: flex;
+  align-items: stretch; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid transparent;
     padding: 10px 5px !important;
@@ -767,16 +769,16 @@ h1.logo {
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li:hover {
     color: #1f0d2e;
     text-decoration: none !important;
-    background-color: transparent; }
+    background-color: #e25f05; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
     color: #1f0d2e !important;
     text-decoration: none !important;
-    background-color: transparent; }
+    background-color: #e25f05; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover {
     color: #1f0d2e !important;
     text-decoration: none !important; }
     .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-      background-color: transparent;
+      background-color: #e25f05;
       height: auto; }
     .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
       color: #1f0d2e !important;
@@ -785,7 +787,7 @@ h1.logo {
       height: auto; }
 @media (min-width: 768px) {
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu {
-    width: 20%; } }
+    width: 14.28%; } }
 @media (max-width: 767px) {
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 100%; }

@@ -8,6 +8,8 @@
           .pane-content {
               & > .menu {
                   background-color: $main-menu-bg !important;
+                  display: flex;
+                  align-items: stretch;
 
                   li {
                       &.parent_menu {
@@ -95,7 +97,7 @@
 
               @media (min-width: 768px) {
                   & > .menu li.parent_menu {
-                      width: 20%;
+                      width: 14.28%;
                   }
               }
 
