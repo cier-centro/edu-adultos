@@ -807,13 +807,13 @@ h1.logo {
     .site-eduadultos #edu_adultos_home_slider .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat -1px 2px; }
+      background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat -51px 2px; }
       .site-eduadultos #edu_adultos_home_slider .views_slideshow_controls_text_next a:hover {
         /*background-position: -59px -55px !important;*/ }
   .site-eduadultos #edu_adultos_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat -48px 2px; }
+    background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat 3px 2px; }
     .site-eduadultos #edu_adultos_home_slider .views-slideshow-controls-text-previous a:hover {
       /*background-position: -6px -55px !important;*/ }
   .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide, .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide img {
@@ -821,12 +821,15 @@ h1.logo {
   .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide label {
     color: white;
     font-size: 36px; }
-  .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide .views-field-body .field-content p {
-    color: white !important;
-    background-color: rgba(255, 255, 255, 0) !important; }
-  .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide .field-content p {
-    font-size: 13px;
-    margin: 0 25% 20px 0 !important; }
+  .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide .views-field-body .field-content {
+    padding: 0 !important;
+    position: relative; }
+    .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide .views-field-body .field-content, .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide .views-field-body .field-content p {
+      color: white !important;
+      font-size: 13px;
+      margin: 0 !important; }
+    .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide .views-field-body .field-content p {
+      padding: 10px 120px 0 0 !important; }
   .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide > div {
     position: relative; }
     .site-eduadultos #edu_adultos_home_slider .views_slideshow_slide > div .views-field-body {
@@ -834,7 +837,7 @@ h1.logo {
       bottom: 0;
       width: 100%;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(120, 180, 47, 0.6);
       padding: 0 15px 15px;
       color: white;
       height: 20%; }
@@ -865,14 +868,18 @@ h1.logo {
         float: right;
         background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat -174px -25px; }
   .site-eduadultos #edu_adultos_home_slider .views-more-link {
-    color: #5b5b5f;
-    padding: 4px 25px;
-    font-weight: 600; }
+    color: white;
+    padding: 4px 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: #00732a; }
   .site-eduadultos #edu_adultos_home_slider .views-field-title {
     position: absolute;
     bottom: 20%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6); }
+    background-color: rgba(120, 180, 47, 0.6); }
     .site-eduadultos #edu_adultos_home_slider .views-field-title h1 {
       margin: 0;
       padding: 15px 15px 0; }
