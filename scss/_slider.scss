@@ -1,0 +1,203 @@
+/**
+ * Slider Styles
+ * --------------------------------------------------
+ */
+.#{$site-name} {
+    ##{$site-slider} {
+      overflow: hidden;
+      height: 100%;
+      padding-top: 10px;
+      margin: 1% 2% 20px;
+
+          .view-header {
+            width: 230px;
+            position: absolute;
+            bottom: 0;
+            background: rgba($buttons-bg-color, 0.5) url("#{$images-path}logo_edu_privada.png") no-repeat 18px center / contain;
+            z-index: 10;
+          }
+          .views-slideshow-controls-text-pause {
+          		display: none;
+          }
+          .views_slideshow_controls_text_next {
+          		float: right;
+
+              a {
+              		color: transparent;
+              		padding-bottom: 35px;
+              		background: url("#{$images-path}img-arrow-next.png") no-repeat;
+
+                  &:hover {
+                      /*background-position: -59px -55px !important;*/
+                  }
+              }
+          }
+          .views-slideshow-controls-text-previous {
+              a {
+              		color: transparent;
+              		padding-bottom: 35px;
+              		background: url("#{$images-path}img-arrow-prev.png") no-repeat;
+
+                  &:hover {
+                      /*background-position: -6px -55px !important;*/
+                  }
+              }
+          }
+          .views_slideshow_slide {
+              &, & img {
+                  width: 100% !important;
+              }
+              label {
+              		color: white;
+              		font-size: 36px;
+              }
+              .views-field-body {
+                  .field-content {
+                      p {
+                          color: black !important;
+                          background-color:rgba(white, 0)!important;
+                          font-weight: 700;
+                      }
+                  }
+              }
+              .field-content {
+                  p {
+                  	  font-size: 13px;
+                      margin: 0 0 20px !important;
+                  }
+              }
+              & > div {
+                  position: relative;
+
+                  .views-field-body {
+                      position: absolute;
+                      top: 30%;
+                      width: 40%;
+                      right: 0;
+                      background-color: rgba(white, 0.7);
+                      padding: 0 70px 15px 30px;
+                      color: black;
+                      height: 70%;
+
+                      h4 {
+                          color: white;
+                          text-transform: none;
+                          font-weight: 400;
+                          font-size: 14px;
+                          margin: 0;
+                      }
+                      p {
+                          color: white !important;
+                      }
+                  }
+                  .views-field-php {
+                      position: absolute;
+                      bottom: 15%;
+                      left: 10%;
+                  }
+                  .btn-info {
+                      color: white;
+                      border: 2px solid white;
+
+                      &:hover {
+                          color: $slider-btn-info-hover !important;
+                          border: 2px solid $slider-btn-info-hover !important;
+
+                          span {
+                              background: url('#{$images-path}img-spritesheet.png') no-repeat -105px -200px !important;
+                          }
+                      }
+                      span {
+                              height: 27px;
+                              width: 27px;
+                              margin-left: 15px;
+                              float: right;
+                              background: url('#{$images-path}img-spritesheet.png') no-repeat -174px -25px;
+                          }
+                  }
+              }
+          }
+          .views-more-link {
+              color: black;
+              padding: 7px 15px;
+              font-weight: 600;
+              display: block;
+              border: 1px solid black;
+              width: 120px;
+              font-size: 17px;
+              margin-top: 15px;
+              text-decoration: blink;
+
+              &:hover {
+                  text-decoration: underline;
+                  background: white;
+              }
+          }
+          .views-field-title {
+              position: absolute;
+              background-color: rgba(white, 0.7);
+              height: 30%;
+
+              h1 {
+                  margin: 0;
+
+                  * {
+                      color: black;
+                      font-weight: 700;
+                      display: block;
+                      text-align: left;
+                  }
+              }
+          }
+          .skin-default {
+              position: relative;
+          }
+          .views-slideshow-controls-top {
+               position: absolute;
+               top: 43%;
+               width: 100%;
+               z-index: 10;
+               padding: 0 15px;
+          }
+
+          @media (min-width: 992px) {
+              .view-header {
+                  height: 33%;
+              }
+              .views_slideshow_slide > div .views-field-title {
+                  top: 0;
+                  width: 40%;
+                  right: 0;
+
+                  h1 {
+                      padding: 18px 70px 0 30px;
+
+                      * {
+                          font-size: 25px;
+                      }
+                  }
+              }
+          }
+          @media (max-width: 991px) {
+              .views_slideshow_slide > div {
+                  .views-field-php, .views-field-body {
+                      display: none;
+                  }
+                  .views-field-title {
+                      bottom: 0;
+                      height: 50px;
+                      padding: 0 65px;
+                      width: 100%;
+
+                      h1 {
+                        padding: 15px 0 0;
+
+                            * {
+                                font-size: 22px;
+                            }
+                      }
+                  }
+              }
+          }
+    }
+}
