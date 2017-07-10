@@ -666,7 +666,9 @@ h1.logo {
     width: 22%;
     margin-left: 15px; }
     .site-eduadultos .lateral-content a {
-      font-size: 16px; } }
+      font-size: 16px; }
+  .site-eduadultos .home-content, .site-eduadultos .general-content, .site-eduadultos .lateral-content {
+    width: 74%; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-eduadultos #microsite_panel {
     overflow: hidden; } }
@@ -809,7 +811,7 @@ h1.logo {
 .site-eduadultos #edu_adultos_home_slider {
   overflow: hidden;
   height: 100%;
-  padding-top: 10px; }
+  padding-top: 15px; }
   .site-eduadultos #edu_adultos_home_slider .views-slideshow-controls-text-pause {
     display: none; }
   .site-eduadultos #edu_adultos_home_slider .views_slideshow_controls_text_next {
@@ -1212,9 +1214,7 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduadultos .main-lateral-panel {
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 15px; }
+  padding: 15px 10px; }
   .site-eduadultos .main-lateral-panel .pane-content ul {
     background-color: #294d89 !important; }
     .site-eduadultos .main-lateral-panel .pane-content ul > li {

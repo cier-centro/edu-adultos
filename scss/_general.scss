@@ -201,6 +201,9 @@
                 font-size: 16px;
             }
          }
+         .home-content, .general-content, .lateral-content {
+            width: 74%;
+         }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
          #microsite_panel {
