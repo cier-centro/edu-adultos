@@ -548,15 +548,16 @@ h1.logo {
  * --------------------------------------------------
  */
 .content-styles, .site-eduadultos .home-content, .site-eduadultos .general-content, .site-eduadultos .lateral-content {
-  background: white;
+  background: #f5f5f5;
   border-radius: 7px;
   margin: 15px 0;
   padding-bottom: 15px; }
 
 .site-eduadultos .main_container {
   background: url("http://52.37.84.217/edu-adultos/img/img_main_bg.jpg") no-repeat center/cover; }
+.site-eduadultos .panels-flexible-region {
+  background-color: white; }
 .site-eduadultos #microsite_panel {
-  background-color: white;
   min-height: 820px;
   position: relative; }
 .site-eduadultos .content p a {
@@ -1211,9 +1212,9 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduadultos .main-lateral-panel {
-  padding-right: 0px;
+  padding-right: 10px;
   padding-left: 10px;
-  padding-top: 10px; }
+  padding-top: 15px; }
   .site-eduadultos .main-lateral-panel .pane-content ul {
     background-color: #294d89 !important; }
     .site-eduadultos .main-lateral-panel .pane-content ul > li {

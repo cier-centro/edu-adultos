@@ -4,7 +4,7 @@
  */
 
 .content-styles {
-    background: white;
+    background: $content-background;
     border-radius: 7px;
     margin: 15px 0;
     padding-bottom: 15px;
@@ -13,11 +13,14 @@
      .main_container {
          background: url('#{$images-path}img_main_bg.jpg') no-repeat center / cover;
      }
+     .panels-flexible-region {
+       background-color: $content-bg;
+     }
      #microsite_panel {
-         background-color: $content-bg;
          min-height: 820px;
          position: relative;
      }
+
      .content {
          p {
              a {
