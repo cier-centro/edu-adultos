@@ -1219,6 +1219,20 @@ h1.logo {
       font-size: 15px !important;
       width: 100%;
       border-bottom: 1px solid white; }
+      .site-eduadultos .main-lateral-panel .pane-content ul > li a.events {
+        background: #ea7119;
+        padding: 20px !important;
+        position: relative; }
+        .site-eduadultos .main-lateral-panel .pane-content ul > li a.events:hover {
+          background-color: #1e3c60; }
+        .site-eduadultos .main-lateral-panel .pane-content ul > li a.events:after {
+          content: "";
+          height: 100%;
+          width: 50px;
+          position: absolute;
+          top: 0;
+          right: 11px;
+          background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat 0px -47px; }
       .site-eduadultos .main-lateral-panel .pane-content ul > li:hover {
         background-color: #1e3c60; }
       .site-eduadultos .main-lateral-panel .pane-content ul > li > a {

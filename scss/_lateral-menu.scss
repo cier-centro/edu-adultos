@@ -15,6 +15,25 @@
            font-size: 15px !important;
            width: 100%;
            border-bottom: 1px solid white;
+
+           a.events {
+              background: #ea7119;
+              padding: 20px !important;
+              position: relative;
+
+               &:hover {
+                 background-color: $lateral-menu-hover-bg;
+               }
+               &:after {
+                  content: "";
+                  height: 100%;
+                  width: 50px;
+                  position: absolute;
+                  top: 0;
+                  right: 11px;
+                  background: url('#{$images-path}img-spritesheet.png') no-repeat 0px -47px;
+               }
+           }
            &:hover{
              background-color: $lateral-menu-hover-bg;
              }
