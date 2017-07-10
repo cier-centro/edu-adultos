@@ -729,6 +729,8 @@ h1.logo {
  */
 .site-eduadultos #microsite_panel .slide .pane-content > .menu {
   background-color: #e97117 !important; }
+  .site-eduadultos #microsite_panel .slide .pane-content > .menu > .last .children_menu {
+    right: 0; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid transparent;
     padding: 10px 5px !important;

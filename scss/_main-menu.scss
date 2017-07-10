@@ -9,6 +9,9 @@
               & > .menu {
                   background-color: $main-menu-bg !important;
 
+                  & > .last .children_menu {
+                      right: 0;
+                  }
                   li {
                       &.parent_menu {
                           & > a {
