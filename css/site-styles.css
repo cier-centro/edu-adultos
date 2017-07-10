@@ -728,13 +728,12 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduadultos #microsite_panel .slide .pane-content > .menu {
-  background-color: #e97117 !important;
-  display: flex;
-  align-items: stretch; }
+  background-color: #e97117 !important; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid transparent;
     padding: 10px 5px !important;
-    font-size: 15px !important; }
+    font-size: 15px !important;
+    width: 100%; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
     top: 95%;
     height: 0px;
@@ -747,7 +746,7 @@ h1.logo {
       .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
         border-bottom: none; }
       .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-        background-color: #eef8f8 !important;
+        background-color: #e97117 !important;
         border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
         color: white !important;
         line-height: 14px;
@@ -755,8 +754,8 @@ h1.logo {
         height: auto;
         padding: 15px; }
         .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
-          background: white !important;
-          color: #1f0d2e !important;
+          background: #e97117 !important;
+          color: white !important;
           text-decoration: none;
           padding: 18px 15px !important;
           display: block;
@@ -767,27 +766,32 @@ h1.logo {
           -o-transition: all 0.2s ease;
           transition: all 0.2s ease; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li:hover {
-    color: #1f0d2e;
+    color: white;
     text-decoration: none !important;
     background-color: #e25f05; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
-    color: #1f0d2e !important;
+    color: white !important;
     text-decoration: none !important;
     background-color: #e25f05; }
   .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover {
-    color: #1f0d2e !important;
+    color: white !important;
     text-decoration: none !important; }
     .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
       background-color: #e25f05;
       height: auto; }
     .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
-      color: #1f0d2e !important;
+      color: white !important;
       text-decoration: none !important; }
     .site-eduadultos #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
       height: auto; }
 @media (min-width: 768px) {
-  .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu {
-    width: 14.28%; } }
+  .site-eduadultos #microsite_panel .slide .pane-content > .menu {
+    display: flex;
+    align-items: stretch; }
+    .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu {
+      width: 14.28%;
+      display: flex;
+      align-items: center; } }
 @media (max-width: 767px) {
   .site-eduadultos #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 100%; }
