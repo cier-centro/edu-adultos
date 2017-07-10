@@ -705,7 +705,8 @@ h1.logo {
   color: white;
   margin-top: 15px;
   font-weight: 600;
-  padding: 9px 5px; }
+  padding: 9px 5px;
+  background: #00732a; }
 .site-eduadultos .content h3 {
   font-size: 18px;
   color: #1f0d2e;

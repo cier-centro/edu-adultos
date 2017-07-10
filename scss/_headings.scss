@@ -21,6 +21,7 @@
             margin-top: 15px;
             font-weight: 600;
             padding: 9px 5px;
+            background: $view-more-bg;
             @extend .content-header-styles;
         }
         h3 {
