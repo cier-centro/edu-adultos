@@ -589,8 +589,8 @@ h1.logo {
 .site-eduadultos .general-content {
   min-height: 500px; }
   .site-eduadultos .general-content img {
-    float: left;
-    margin: 15px 15px 15px 5px; }
+    display: block;
+    margin: 15px auto; }
   .site-eduadultos .general-content .btn {
     white-space: normal;
     color: white !important;
@@ -629,7 +629,7 @@ h1.logo {
     width: 70px;
     top: 0;
     left: 0;
-    background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat; }
+    background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat; }
   .site-eduadultos .lateral-content .lateral-buttons a:first-child span {
     background-position: -12px -102px; }
   .site-eduadultos .lateral-content .lateral-buttons a:last-child span {
@@ -688,7 +688,6 @@ h1.logo {
     width: 100% !important; } }
 @media (max-width: 500px) {
   .site-eduadultos .general-content img {
-    margin: 15px 0 !important;
     width: 100%; } }
 
 /**
