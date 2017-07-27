@@ -937,11 +937,11 @@ h1.logo {
   .site-eduadultos .content .table-responsive tbody tr {
     border-bottom: none; }
     .site-eduadultos .content .table-responsive tbody tr:nth-child(odd) {
-      background: #b8dcef; }
+      background: #fffad9; }
     .site-eduadultos .content .table-responsive tbody tr:nth-child(even) {
-      background: #9fcfea; }
+      background: #ffdea1; }
     .site-eduadultos .content .table-responsive tbody tr:hover {
-      background: #4470B3;
+      background: #ff8e3c;
       -webkit-transition: all 150ms ease-out;
       -moz-transition: all 150ms ease-out;
       -ms-transition: all 150ms ease-out;
@@ -960,8 +960,10 @@ h1.logo {
       padding: 15px !important;
       vertical-align: middle !important;
       color: black; }
-    .site-eduadultos .content .table-responsive tbody tr td:last-child {
-      min-width: 100px; }
+    .site-eduadultos .content .table-responsive tbody tr td {
+      border-color: #b9b6b6; }
+      .site-eduadultos .content .table-responsive tbody tr td:last-child {
+        min-width: 100px; }
   .site-eduadultos .content .table-responsive td > a {
     color: #243268;
     display: inline-block; }
@@ -978,20 +980,26 @@ h1.logo {
   @media screen and (max-width: 767px) {
     .site-eduadultos .content .table-responsive .table > tbody > tr > td, .site-eduadultos .content .table-responsive .table > tbody > tr > th, .site-eduadultos .content .table-responsive .table > tfoot > tr > td, .site-eduadultos .content .table-responsive .table > tfoot > tr > th, .site-eduadultos .content .table-responsive .table > thead > tr > td, .site-eduadultos .content .table-responsive .table > thead > tr > th {
       white-space: normal; } }
+.site-eduadultos .content table thead th {
+  border-color: #b9b6b6; }
 .site-eduadultos .content table > thead {
   -webkit-border-radius: 5px 5px 0px 0px;
   -moz-border-radius: 5px 5px 0px 0px;
   -ms-border-radius: 5px 5px 0px 0px;
   border-radius: 5px 5px 0px 0px; }
   .site-eduadultos .content table > thead > tr > th {
-    background: #0b204e;
+    text-align: -webkit-center;
+    background: #e97117;
     padding: 15px; }
     .site-eduadultos .content table > thead > tr > th:first-child {
-      border-top-left-radius: 15px;
+      border-right: 1px solid #fff;
       border: none; }
     .site-eduadultos .content table > thead > tr > th:last-child {
-      border-top-right-radius: 15px;
       border: none; }
+  .site-eduadultos .content table > thead > tr > td {
+    text-align: -webkit-center;
+    font-weight: 600 !important;
+    font-variant: small-caps; }
 .site-eduadultos .content .table-bordered {
   border: none; }
   .site-eduadultos .content .table-bordered > thead > tr > td, .site-eduadultos .content .table-bordered > thead > tr > th {
