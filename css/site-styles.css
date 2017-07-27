@@ -574,9 +574,10 @@ h1.logo {
   color: #666666 !important;
   padding: 0 5px; }
 .site-eduadultos .bordered-div {
-  border: 1px solid gray;
+  border: 1px solid #00732a;
   padding: 15px;
-  margin: 15px 0; }
+  margin: 15px 0;
+  border-radius: 15px; }
 .site-eduadultos .home-content .view-content ul, .site-eduadultos .home-content .view-content ol, .site-eduadultos .general-content .view-content ul, .site-eduadultos .general-content .view-content ol, .site-eduadultos .lateral-content .view-content ul, .site-eduadultos .lateral-content .view-content ol {
   padding-left: 40px !important; }
   .site-eduadultos .home-content .view-content ul li, .site-eduadultos .home-content .view-content ol li, .site-eduadultos .general-content .view-content ul li, .site-eduadultos .general-content .view-content ol li, .site-eduadultos .lateral-content .view-content ul li, .site-eduadultos .lateral-content .view-content ol li {
