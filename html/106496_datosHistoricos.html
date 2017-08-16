@@ -18,13 +18,13 @@
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th ng-repeat="cell in header" ng-bind="cell">
+					<th ng-repeat="cell in t1.header track by $index" ng-bind="cell">
 					</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr ng-repeat="row in data">
-					<td ng-repeat="cell in row" ng-bind="cell">
+				<tr ng-repeat="row in t1.data">
+					<td ng-repeat="cell in row track by $index" ng-bind="cell">
 					</td>
 				</tr>		
 			</tbody>
