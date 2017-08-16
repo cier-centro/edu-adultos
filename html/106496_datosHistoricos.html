@@ -1,11 +1,36 @@
 <h2>Historico atencion educacion formal para adultos en Colombia ciclo 1er al 6to periodo </h2>
 <p>Para el tema de Alfabetización – ciclo I y demás ciclos lectivos especiales integrados se han atendido desde el 2003 a 2016 diferentes tipos de poblaciones como campesina y rural, reintegrados, situación de desplazamiento, discapacidad, víctimas del conflicto, entre otras, el objetivo fundamental, garantizar el derecho a la educación de estas personas que por diversas situaciones no ingresaron al sistema o no pudieron graduarse. La tabla a continuación muestra el comportamiento de matrícula en este tiempo, así:</p>
 <!-- Tabla 1-->
-
+<!-- 
 <table>
 
 </table>s
+ -->
 
+
+<script src="../js/angular.min.js"></script>
+<script src="../js/CsvTableCtrl.js"></script>
+
+
+
+ <div  ng-app = 'snippet'>
+ 		<div ng-controller="CsvTableCtrl as ctrl" class="table-responsive">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th ng-repeat="cell in header" ng-bind="cell">
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="row in data">
+					<td ng-repeat="cell in row" ng-bind="cell">
+					</td>
+				</tr>		
+			</tbody>
+		</table>
+		</div>
+ </div>
 <p>Así mismo, se coasdasdmparte este espacio información referente a la educación formal de jóvenes y adultos desde el sector oficial y no oficial de acuerdo al reporte entregado por parte de la Oficina Asesora de Planeación y Finanzas del Ministerio de Educacion Nacional, como muestra la siguiente tabla:</p>
 
 <!-- Tabla 2-->
