@@ -1,3 +1,4 @@
+<div   ng-app = 'snippet'>
 <h2>Historico atencion educacion formal para adultos en Colombia ciclo 1er al 6to periodo </h2>
 <p>Para el tema de Alfabetización – ciclo I y demás ciclos lectivos especiales integrados se han atendido desde el 2003 a 2016 diferentes tipos de poblaciones como campesina y rural, reintegrados, situación de desplazamiento, discapacidad, víctimas del conflicto, entre otras, el objetivo fundamental, garantizar el derecho a la educación de estas personas que por diversas situaciones no ingresaron al sistema o no pudieron graduarse. La tabla a continuación muestra el comportamiento de matrícula en este tiempo, así:</p>
 <!-- Tabla 1-->
@@ -18,35 +19,460 @@
 		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th ng-repeat="cell in t1.header track by $index" ng-bind="cell">
-					</th>
+					<th ng-repeat="cell in t1.header track by $index" ng-bind="cell"></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="row in t1.data">
-					<td ng-repeat="cell in row track by $index" ng-bind="cell">
-					</td>
+					<td ng-repeat="cell in row track by $index" ng-bind="cell"></td>
+				</tr>		
+			</tbody>
+		</table>
+		</div>
+ </div> 
+<p><i>Fuente: MEN (2017): Oficina Asesora de Planeación y Finanzas. Matrícula certificada por las Secretarías de Educación (2002) y SINEB - SIMAT  (2003-2016)</i></p>
+<p>Así mismo, se coasdasdmparte este espacio información referente a la educación formal de jóvenes y adultos desde el sector oficial y no oficial de acuerdo al reporte entregado por parte de la Oficina Asesora de Planeación y Finanzas del Ministerio de Educacion Nacional, como muestra la siguiente tabla:</p>
+
+<!-- Tabla 2-->
+
+<div class="table-responsive">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th rowspan="2">CLEI</th>
+				<th colspan="2">2003</th>
+				<th colspan="2">2004</th>
+				<th colspan="2">2005</th>
+				<th colspan="2">2006</th>
+				<th colspan="2">2007</th>
+				<th colspan="2">2008</th>
+				<th colspan="2">2009</th>
+				<th colspan="2">2010</th>
+				<th colspan="2">2011</th>
+				<th colspan="2">2012</th>
+				<th colspan="2">2013</th>
+				<th colspan="2">2014</th>
+				<th colspan="2">2015</th>
+			</tr>
+			<tr>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+				 <th>Oficial</th>
+				 <th>No Oficial</th>
+                                 <th>Oficial</th>
+				 <th>No Oficial</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>C0<td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>63.87</td>
+				<td>95</td>
+				<td>276</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>C1<td>
+                <td>32.034</td>
+				<td>1</td>
+				<td>44.175</td>
+				<td>2.791</td>
+				<td>89.805</td>
+				<td>2.941</td>
+				<td>147.729</td>
+				<td>3.515</td>
+				<td>193.986</td>
+				<td>3.084</td>
+				<td>260.992</td>
+				<td>3.119</td>
+				<td>227.07</td>
+				<td>4.114</td>
+				<td>155.284</td>
+				<td>2.188</td>
+				<td>79.748</td>
+				<td>3.264</td>
+				<td>102.527</td>
+				<td>2.354</td>
+				<td>70.868</td>
+				<td>694</td>
+				<td>56.57</td>
+				<td>764</td>
+				<td>70.783</td>
+				<td>794</td>
+			</tr>
+			<tr>
+				<td>C2<td>
+				<td>22.705</td>
+				<td>54</td>
+				<td>27.123</td>
+				<td>4.821</td>
+				<td>40.029</td>
+				<td>4.251</td>
+				<td>74.752</td>
+				<td>5.043</td>
+				<td>91.772</td>
+				<td>5.061</td>
+				<td>125.424</td>
+				<td>4.417</td>
+				<td>190.828</td>
+				<td>5.602</td>
+				<td>161.615</td>
+				<td>4.637</td>
+				<td>109.694</td>
+				<td>3.917</td>
+				<td>75.147</td>
+				<td>3.136</td>
+				<td>78.169</td>
+				<td>3.061</td>
+				<td>74.653</td>
+				<td>1.772</td>
+				<td>51.98</td>
+				<td>2.4</td>
+			</tr>
+			<tr>
+				<td>C3<td>
+				<td>67.957</td>
+				<td>265</td>
+				<td>87.541</td>
+				<td>27.594</td>
+				<td>99.835</td>
+				<td>26.997</td>
+				<td>126.697</td>
+				<td>30.975</td>
+				<td>138.667</td>
+				<td>29.56</td>
+				<td>160.968</td>
+				<td>29.803</td>
+				<td>179.569</td>
+				<td>29.239</td>
+				<td>215.158</td>
+				<td>20.957</td>
+				<td>186.71</td>
+				<td>20.78</td>
+				<td>163.705</td>
+				<td>21.367</td>
+				<td>160.114</td>
+				<td>22.654</td>
+				<td>156.404</td>
+				<td>18.635</td>
+				<td>140.737</td>
+				<td>22.821</td>
+			</tr>
+			<tr>
+				<td>C4<td>
+				<td>67.412</td>
+				<td>379</td>
+				<td>80.008</td>
+				<td>34.564</td>
+				<td>87.667</td>
+				<td>36.518</td>
+				<td>108.841</td>
+				<td>40.862</td>
+				<td>112.659</td>
+				<td>39.911</td>
+				<td>133.496</td>
+				<td>39.21</td>
+				<td>153.816</td>
+				<td>38.388</td>
+				<td>175.714</td>
+				<td>32.397</td>
+				<td>181.595</td>
+				<td>34.529</td>
+				<td>175.682</td>
+				<td>35.722</td>
+				<td>170.805</td>
+				<td>39.433</td>
+				<td>158.488</td>
+				<td>35.855</td>
+				<td>158.612</td>
+				<td>41.513</td>
+			</tr>
+			<tr>
+				<td>C5<td>
+				<td>60.249</td>
+				<td>362</td>
+				<td>66.598</td>
+				<td>29.909</td>
+				<td>73.196</td>
+				<td>32.491</td>
+				<td>82.448</td>
+				<td>37.033</td>
+				<td>88.749</td>
+				<td>38.673</td>
+				<td>95.168</td>
+				<td>37.382</td>
+				<td>94.181</td>
+				<td>35.867</td>
+				<td>126.176</td>
+				<td>30.514</td>
+				<td>102.433</td>
+				<td>33.215</td>
+				<td>81.86</td>
+				<td>29.556</td>
+				<td>88.629</td>
+				<td>28.968</td>
+				<td>88.998</td>
+				<td>30.533</td>
+				<td>78.907</td>
+				<td>35.916</td>
+			</tr>
+			<tr>
+				<td>C6<td>
+				<td>17.707</td>
+				<td>213</td>
+				<td>21.536</td>
+				<td>19.779</td>
+				<td>22.913</td>
+				<td>19.666</td>
+				<td>30.254</td>
+				<td>21.92</td>
+				<td>34.896</td>
+				<td>24.207</td>
+				<td>40.976</td>
+				<td>24.21</td>
+				<td>68.748</td>
+				<td>26.556</td>
+				<td>61.699</td>
+				<td>28.364</td>
+				<td>95.98</td>
+				<td>29.631</td>
+				<td>91.572</td>
+				<td>29.265</td>
+				<td>104.635</td>
+				<td>54.325</td>
+				<td>111.502</td>
+				<td>45.854</td>
+				<td>105.412</td>
+				<td>59.139</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p><i>Fuente: MEN. SIMAT. Oficina Asesora de Planeación y Finanzas. 2016</i></p>
+
+
+<p>A continuación se presenta el total de la matrícula para los sectores oficial y no oficial, desde el año 2003 al 2015.</p>
+
+<!-- Falta imagen --> 
+<p></p>
+<p>Además es importante relacionar la información correspondiente a la atención de la población joven y adulta con discapacidad  </p>
+
+<div class="table-responsive">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th rowspan="2">Ciclos lectivos especiales integrados</th>
+				<th colspan="2">2012</th>
+				<th colspan="2">2013</th>
+				<th colspan="2">2014</th>
+				<th colspan="2">2015</th>
+				<th colspan="2">Total</th>
+				
+			</tr>
+			<tr>
+				<th>Oficial</th>
+				<th>No Oficial</th>
+				<th>Oficial</th>
+				<th>No Oficial</th>
+				<th>Oficial</th>
+				<th>No Oficial</th>
+				<th>Oficial</th>
+				<th>No Oficial</th>
+				<th>Oficial</th>
+				<th>No Oficial</th>
+				
+			
+		</thead>
+		<tbody>
+			<tr>
+				<td>C0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>184</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>0</td>
+				<td>184</td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<td>C1</td>
+				<td>798</td>
+				<td>0</td>
+				<td>856</td>
+				<td>13</td>
+				<td>512</td>
+				<td>18</td>
+				<td>740</td>
+				<td>794</td>
+				<td>2.906</td>
+				<td>825</td>
+			</tr>
+			<tr>
+				<td>C2</td>
+				<td>862</td>
+				<td>0</td>
+				<td>1.061</td>
+				<td>30</td>
+				<td>1.201</td>
+				<td>37</td>
+				<td>1.134</td>
+				<td>2.4</td>
+				<td>4.258</td>
+				<td>2.467</td>
+			</tr>
+			<tr>
+				<td>C3</td>
+				<td>1.692</td>
+				<td>0</td>
+				<td>2.187</td>
+				<td>305</td>
+				<td>2.429</td>
+				<td>350</td>
+				<td>2.648</td>
+				<td>22.821</td>
+				<td>8.956</td>
+				<td>23.476</td>
+			</tr>
+			<tr>
+				<td>C4</td>
+				<td>1.321</td>
+				<td>0</td>
+				<td>1.611</td>
+				<td>413</td>
+				<td>1.867</td>
+				<td>459</td>
+				<td>2.23</td>
+				<td>41.513</td>
+				<td>7.029</td>
+				<td>42.385</td>
+			</tr>
+			<tr>
+				<td>C5</td>
+				<td>465</td>
+				<td>0</td>
+				<td>591</td>
+				<td>213</td>
+				<td>696</td>
+				<td>277</td>
+				<td>735</td>
+				<td>35.916</td>
+				<td>2.487</td>
+				<td>36.406</td>
+			</tr>
+			<tr>
+				<td>C6</td>
+				<td>564</td>
+				<td>0</td>
+				<td>791</td>
+				<td>330</td>
+				<td>991</td>
+				<td>397</td>
+				<td>1.15</td>
+				<td>59.139</td>
+				<td>3.496</td>
+				<td>59.866</td>
+			</tr>
+			<tr>
+				<td>Total</td>
+				<td>5.702</td>
+				<td>0</td>
+				<td>7.281</td>
+				<td>1.304</td>
+				<td>7.696</td>
+				<td>1.538</td>
+				<td>8.637</td>
+				<td>162.583</td>
+				<td>29.316</td>
+				<td>165.425</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+
+<p></p>
+<h3>Tasas de analfabetismo de las entidades territoriales certificadas</h3>
+
+<p>En este espacio se da a conocer las tasas de analfabetismo que se reportan desde el DANE de acuerdo a los resultados obtenidos desde la Gran Encuentra Integrada de Hogares 2014 y el censo  2005, la cual sirve de información para las entidades territoriales, las organizaciones y las diversas instituciones del país. En este proceso se tiene la siguiente información:</p>
+
+
+
+<div>
+ 	<div ng-controller="CsvTableCtrl as ctrl" class="table-responsive">
+		<table class="table table-bordered">
+			<thead>
+			<tr>
+				<th colspan="4">MINISTERIO DE EDUCACIÓN NACIONAL</th>
+				
+				
+			</tr>
+			<tr>
+				<th colspan="4">SUBDIRECCIÓN DE PERMANENCIA			</th>
+			</tr>
+			<tr>
+				<th colspan="4">PROGRAMA NACIONAL DE ALFABETIZACION Y EDUCACIÓN FORMAL PARA JOVENES Y ADULTO</th>
+			</tr>
+			<tr>
+				<th>#</th>
+				<th>Departamento / Área metropolitana</th>
+				<th>Tasa de analfabetismo pob. 15 años y mas</th>
+				<th>Fuente de información</th>
+			</tr>
+		</thead>
+			<tbody>
+				<tr ng-repeat="row in t1.data">
+					<td ng-repeat="cell in row track by $index" ng-bind="cell"></td>
 				</tr>		
 			</tbody>
 		</table>
 		</div>
  </div>
-<p>Así mismo, se coasdasdmparte este espacio información referente a la educación formal de jóvenes y adultos desde el sector oficial y no oficial de acuerdo al reporte entregado por parte de la Oficina Asesora de Planeación y Finanzas del Ministerio de Educacion Nacional, como muestra la siguiente tabla:</p>
-
-<!-- Tabla 2-->
-
-<table></table>
-<p>A continuación se presenta el total de la matrícula para los sectores oficial y no oficial, desde el año 2003 al 2015.</p>
-
-<!-- Falta imagen --> 
-
-<p>Además es importante relacionar la información correspondiente a la atención de la población joven y adulta con discapacidad  </p>
-
-<!-- Tabla 3 -->
-
-
-<h3>Tasas de analfabetismo de las entidades territoriales certificadas</h3>
-
-<p>En este espacio se da a conocer las tasas de analfabetismo que se reportan desde el DANE de acuerdo a los resultados obtenidos desde la Gran Encuentra Integrada de Hogares 2014 y el censo  2005, la cual sirve de información para las entidades territoriales, las organizaciones y las diversas instituciones del país. En este proceso se tiene la siguiente información:</p>
-
-<!-- Tabla gigante e imagen -->
+ </div>
+ 
+ 
+ <!-- Tabla gigante e imagen -->
