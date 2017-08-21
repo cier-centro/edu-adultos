@@ -1,7 +1,28 @@
 <h2>Modelos educativos flexibles para atender jóvenes y adultos en Colombia </h2>
 <p>Según el reporte tomado del SIMAT 2016, se tiene que a nivel nacional la atención a población de jóvenes y adultos se puede hacer con el pago de horas extras a los docentes de la planta global previo estudio técnico de la ETC en educación y a través de la prestación del servicio implementando los modelos educativos flexibles. En este contexto, según el reporte del Sistema de Información de Matrícula SIMAT del Ministerio de Educación Nacional en Colombia, en 2016 se implementaron 14 modelos educativos flexibles en los ciclos lectivos especiales integrados correspondientes del 1 al 6 como muestra el siguiente cuadro:</p>
 
-<!-- Tabla 1 -->
+
+<script src="https://raw.githubusercontent.com/cier-centro/edu-adultos/master/js/angular.min.js"></script>
+<script src="https://raw.githubusercontent.com/cier-centro/edu-adultos/master/js/CsvTableCtrl.js"></script>
+
+
+
+ <div  ng-app = 'snippet'>
+ 		<div ng-controller="CsvTable5Ctrl as ctrl" class="table-responsive">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th ng-repeat="cell in t1.header track by $index" ng-bind="cell"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="row in t1.data">
+					<td ng-repeat="cell in row track by $index" ng-bind="cell"></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+ </div>
 
 <p>Sin embargo, las ETC en educación atienden la población de jóvenes y adultos con otras estrategias y metodologías y la matricula se carga al sistema de información SIMAT como programa de educación para adultos (Decreto 1075 de 2015).</p>
 
