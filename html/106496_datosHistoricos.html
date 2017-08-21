@@ -1,16 +1,17 @@
 <div   ng-app = 'snippet'>
 <h2>Historico atencion educacion formal para adultos en Colombia ciclo 1er al 6to periodo </h2>
 <p>Para el tema de Alfabetización – ciclo I y demás ciclos lectivos especiales integrados se han atendido desde el 2003 a 2016 diferentes tipos de poblaciones como campesina y rural, reintegrados, situación de desplazamiento, discapacidad, víctimas del conflicto, entre otras, el objetivo fundamental, garantizar el derecho a la educación de estas personas que por diversas situaciones no ingresaron al sistema o no pudieron graduarse. La tabla a continuación muestra el comportamiento de matrícula en este tiempo, así:</p>
+<p><b>Tabla No 1. Matrícula total por grado - ciclos de adultos 2003 - 2016</b></p>
 <!-- Tabla 1-->
-<!-- 
+<!--
 <table>
 
 </table>s
  -->
 
 
-<script src="../js/angular.min.js"></script>
-<script src="../js/CsvTableCtrl.js"></script>
+<script src="https://raw.githubusercontent.com/cier-centro/edu-adultos/master/js/angular.min.js"></script>
+<script src="https://raw.githubusercontent.com/cier-centro/edu-adultos/master/js/CsvTableCtrl.js"></script>
 
 
 
@@ -25,13 +26,14 @@
 			<tbody>
 				<tr ng-repeat="row in t1.data">
 					<td ng-repeat="cell in row track by $index" ng-bind="cell"></td>
-				</tr>		
+				</tr>
 			</tbody>
 		</table>
 		</div>
- </div> 
+ </div>
 <p><i>Fuente: MEN (2017): Oficina Asesora de Planeación y Finanzas. Matrícula certificada por las Secretarías de Educación (2002) y SINEB - SIMAT  (2003-2016)</i></p>
 <p>Así mismo, se coasdasdmparte este espacio información referente a la educación formal de jóvenes y adultos desde el sector oficial y no oficial de acuerdo al reporte entregado por parte de la Oficina Asesora de Planeación y Finanzas del Ministerio de Educacion Nacional, como muestra la siguiente tabla:</p>
+<p><b>Tabla 2 - Comportamiento de matrícula población de jóvenes y adultos 2003 - 2015</b></p>
 
 <!-- Tabla 2-->
 
@@ -295,8 +297,11 @@
 
 <p>A continuación se presenta el total de la matrícula para los sectores oficial y no oficial, desde el año 2003 al 2015.</p>
 
-<!-- Falta imagen --> 
-<p></p>
+<p><b>Gráfica 1</b></p>
+
+
+<!-- Falta imagen -->
+<p><i>Fuente: MEN. SIMAT. Oficina Asesora de Planeación y Finanzas. 2016</i></p>
 <p>Además es importante relacionar la información correspondiente a la atención de la población joven y adulta con discapacidad  </p>
 
 <div class="table-responsive">
@@ -309,7 +314,7 @@
 				<th colspan="2">2014</th>
 				<th colspan="2">2015</th>
 				<th colspan="2">Total</th>
-				
+
 			</tr>
 			<tr>
 				<th>Oficial</th>
@@ -322,8 +327,8 @@
 				<th>No Oficial</th>
 				<th>Oficial</th>
 				<th>No Oficial</th>
-				
-			
+
+
 		</thead>
 		<tbody>
 			<tr>
@@ -434,6 +439,7 @@
 	</table>
 
 </div>
+<p><i>Fuente: MEN. Oficina Asesora de planeación y Finanzas. 2016</i></p>
 
 <p></p>
 <h3>Tasas de analfabetismo de las entidades territoriales certificadas</h3>
@@ -448,8 +454,8 @@
 			<thead>
 			<tr>
 				<th colspan="4">MINISTERIO DE EDUCACIÓN NACIONAL</th>
-				
-				
+
+
 			</tr>
 			<tr>
 				<th colspan="4">SUBDIRECCIÓN DE PERMANENCIA			</th>
@@ -467,12 +473,12 @@
 			<tbody>
 				<tr ng-repeat="row in t1.data">
 					<td ng-repeat="cell in row track by $index" ng-bind="cell"></td>
-				</tr>		
+				</tr>
 			</tbody>
 		</table>
 		</div>
  </div>
  </div>
- 
- 
- <!-- Tabla gigante e imagen -->
+
+
+<!-- Mapa de colombia -->
