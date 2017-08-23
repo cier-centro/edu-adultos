@@ -2,31 +2,223 @@
 <p>Según el reporte tomado del SIMAT 2016, se tiene que a nivel nacional la atención a población de jóvenes y adultos se puede hacer con el pago de horas extras a los docentes de la planta global previo estudio técnico de la ETC en educación y a través de la prestación del servicio implementando los modelos educativos flexibles. En este contexto, según el reporte del Sistema de Información de Matrícula SIMAT del Ministerio de Educación Nacional en Colombia, en 2016 se implementaron 14 modelos educativos flexibles en los ciclos lectivos especiales integrados correspondientes del 1 al 6 como muestra el siguiente cuadro:</p>
 
 
-<script src="../js/angular.min.js"></script>
-<script src="../js/CsvTableCtrl.js"></script>
 
 
+<div class="table-responsive">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Modelo educativo flexible</th>
+        <th>Ciclo 0 Adultos</th>
+        <th>Ciclo 1 Adultos</th>
+        <th>Ciclo 2 Adultos</th>
+        <th>Ciclo 3 Adultos</th>
+        <th>Ciclo 4 Adultos</th>
+        <th>Ciclo 5 Adultos</th>
+        <th>Ciclo 6 Adultos</th>
+        <th>Total</th>
+      </tr>
+    </thead>
 
- <div  ng-app = 'snippet'>
- 		<div ng-controller="CsvTable5Ctrl as ctrl" class="table-responsive">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th ng-repeat="cell in t1.header track by $index" ng-bind="cell"></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr ng-repeat="row in t1.data">
-					<td ng-repeat="cell in row track by $index" ng-bind="cell"></td>
-				</tr>
-			</tbody>
-		</table>
-		</div>
- </div>
+    <tbody>
+      <tr>
+        <td>Educación Tradicional</td>
+        <td></td>
+        <td></td>
+        <td>157</td>
+        <td>140</td>
+        <td>147</td>
+        <td>114</td>
+        <td>95</td>
+        <td>653</td>
+      </tr>
+      <tr>
+        <td>SER</td>
+        <td></td>
+        <td>18.521</td>
+        <td>2.827</td>
+        <td>2.374</td>
+        <td>2.497</td>
+        <td>1.041</td>
+        <td>1.497</td>
+        <td>28.757</td>
+      </tr>
+      <tr>
+        <td>CAFAM</td>
+        <td>1</td>
+        <td>187</td>
+        <td>528</td>
+        <td>876</td>
+        <td>3.683</td>
+        <td>1.596</td>
+        <td>1.621</td>
+        <td>8.492</td>
+      </tr>
+      <tr>
+        <td>SAT</td>
+        <td></td>
+        <td>10</td>
+        <td>71</td>
+        <td>6.192</td>
+        <td>5.530</td>
+        <td>1.778</td>
+        <td>5.011</td>
+        <td>18.592</td>
+      </tr>
+      <tr>
+        <td>Programa para Jóvenes en Extraedad y Adultos</td>
+        <td></td>
+        <td>10.012</td>
+        <td>34.258</td>
+        <td>105.129</td>
+        <td>120.934</td>
+        <td>56.004</td>
+        <td>95.367</td>
+        <td>421.704</td>
+      </tr>
+      <tr>
+        <td>Transformemos</td>
+        <td></td>
+        <td></td>
+        <td>10.394</td>
+        <td>5.043</td>
+        <td>2.862</td>
+        <td>1.784</td>
+        <td>1.723</td>
+        <td>21.806</td>
+      </tr>
+      <tr>
+        <td>Grupos Juveniles Creativos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2.132</td>
+        <td>2.141</td>
+        <td>1.247</td>
+        <td>713</td>
+        <td>6.233</td>
+      </tr>
+      <tr>
+        <td>Modalidad Virtual Asistida UCN</td>
+        <td></td>
+        <td>261</td>
+        <td>93</td>
+        <td>1.211</td>
+        <td>1.949</td>
+        <td>793</td>
+        <td>1.353</td>
+        <td>5.660</td>
+      </tr>
+      <tr>
+        <td>A Crecer</td>
+        <td></td>
+        <td>27.125</td>
+        <td>471</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>27.596</td>
+      </tr>
+      <tr>
+        <td>Bachillerato Pacicultor</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>163</td>
+        <td></td>
+        <td></td>
+        <td>163</td>
+      </tr>
+      <tr>
+        <td>Modelo ser humano (Ciclo 1, 2, 3, 4, 5,6)</td>
+        <td></td>
+        <td>9</td>
+        <td>7.846</td>
+        <td>10.246</td>
+        <td>9.976</td>
+        <td>6.164</td>
+        <td>8.574</td>
+        <td>42.815</td>
+      </tr>
+      <tr>
+        <td>Espere</td>
+        <td></td>
+        <td>27.184</td>
+        <td>28</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>27.212</td>
+      </tr>
+      <tr>
+        <td>Escuela Indígena Intercultural De Jóvenes y Adultos</td>
+        <td></td>
+        <td>3</td>
+        <td>388</td>
+        <td>495</td>
+        <td>618</td>
+        <td>434</td>
+        <td>152</td>
+        <td>2.090</td>
+      </tr>
+      <tr>
+        <td>Formación para la Reintegración</td>
+        <td></td>
+        <td>314</td>
+        <td>999</td>
+        <td>987</td>
+        <td>780</td>
+        <td>410</td>
+        <td>731</td>
+        <td>4.221</td>
+      </tr>
+      <tr>
+        <td>Etnoeducativo para Comunidades Negras - Pacífico Colombiano</td>
+        <td></td>
+        <td>687</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>687</td>
+      </tr>
+      <tr>
+        <td>Flexible Escuela Integral</td>
+        <td></td>
+        <td></td>
+        <td>547</td>
+        <td>1.037</td>
+        <td>1.117</td>
+        <td>90</td>
+        <td>597</td>
+        <td>3.388</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>1</td>
+        <td>84.313</td>
+        <td>58.607</td>
+        <td>135.862</td>
+        <td>152.397</td>
+        <td>71.455</td>
+        <td>117.434</td>
+        <td>620.069</td>
+      </tr>
 
+    </tbody>
+  </table>
+
+</div>
  <p><i>Fuente: MEN, SIMAT definitiva 2016_1. Elaborado Por la Subdirección de Permanencia</i></p>
 
 <p>Sin embargo, las ETC en educación atienden la población de jóvenes y adultos con otras estrategias y metodologías y la matricula se carga al sistema de información SIMAT como programa de educación para adultos (Decreto 1075 de 2015).</p>
 
 <!-- Imagen -->
+
+<p>IMAGEN</p>
+<p><i>Visita: Grupos Alfabetización en ETC Tumaco, 2016</i></p>
 <p>Para su información: <a href="#">Educación formal para adultos en cifras</a></p>
