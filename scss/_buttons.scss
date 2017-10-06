@@ -30,9 +30,16 @@
      }
 
      .pdf-button {
+        position: relative;
+        display: flex !important;
+        min-height: 45px !important;
+        padding-left: 45px;
+        max-width: 315px;
+
          &:before {
+            content: "";
             background: url("#{$images-path}img-spritesheet.png") no-repeat;
-            background-position: -133px -6px;
+            background-position: -53px -55px;
             height: 45px;
             width: 45px;
             position: absolute;

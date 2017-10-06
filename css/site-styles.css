@@ -1028,14 +1028,21 @@ h1.logo {
     position: absolute;
     left: 0;
     top: 0; }
-.site-eduadultos .pdf-button:before {
-  background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat;
-  background-position: -133px -6px;
-  height: 45px;
-  width: 45px;
-  position: absolute;
-  left: 0;
-  top: 0; }
+.site-eduadultos .pdf-button {
+  position: relative;
+  display: flex !important;
+  min-height: 45px !important;
+  padding-left: 45px;
+  max-width: 315px; }
+  .site-eduadultos .pdf-button:before {
+    content: "";
+    background: url("http://52.37.84.217/edu-adultos/img/img-spritesheet.png") no-repeat;
+    background-position: -53px -55px;
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    left: 0;
+    top: 0; }
 .site-eduadultos .excel-button span {
   background-position: -133px -62px; }
 .site-eduadultos .more-info-button span {
