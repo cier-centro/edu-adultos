@@ -668,7 +668,6 @@ h1.logo {
   .site-eduadultos .image-gallery-content .views-row h3 {
     margin-top: 0 !important; }
   .site-eduadultos .image-gallery-content .views-row .btn {
-    height: 200px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -717,6 +716,8 @@ h1.logo {
     align-items: center; }
   .site-eduadultos .image-gallery-content .views-row {
     width: 46%; }
+    .site-eduadultos .image-gallery-content .views-row .btn {
+      height: 200px; }
     .site-eduadultos .image-gallery-content .views-row .views-field-body {
       height: 80px;
       overflow-y: auto; } }
@@ -727,7 +728,10 @@ h1.logo {
   .site-eduadultos .section_container.no_left_sidebar .section_content {
     width: 100% !important; }
   .site-eduadultos .image-gallery-content .views-row {
-    width: 96%; } }
+    width: 96%; }
+    .site-eduadultos .image-gallery-content .views-row .btn {
+      max-height: 200px;
+      height: 40vw; } }
 @media (max-width: 500px) {
   .site-eduadultos .general-content img {
     width: 100%; } }

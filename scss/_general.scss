@@ -197,7 +197,6 @@
                 margin-top: 0 !important;
             }
             .btn {
-                height: 200px;
                 display: flex;
                 align-items: center;
                 overflow: hidden;
@@ -269,6 +268,9 @@
             .views-row {
                 width: 46%;
 
+                .btn {
+                    height: 200px;
+                }
                 .views-field-body {
                     height: 80px;
                     overflow-y: auto;
@@ -288,6 +290,11 @@
          .image-gallery-content {
             .views-row {
                 width: 96%;
+
+                .btn {
+                    max-height: 200px;
+                    height: 40vw;
+                }
             }
          }
      }
