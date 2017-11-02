@@ -185,7 +185,53 @@
             }
         }
      }
+     .image-gallery-content {
+        .views-row {
+            width: 46%;
+            float: left;
+            margin: 2%;
+            padding: 15px;
+            border: 2px solid $view-more-bg;
+            border-radius: 15px;
 
+            h3 {
+                margin-top: 0 !important;
+            }
+            .button {
+                height: 200px;
+                display: flex;
+                align-items: center;
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+            }
+            .views-field-body {
+                height: 80px;
+                overflow-y: auto;
+                background: rgba($view-more-bg, 0.2);
+            }
+            .btn:hover:before {
+                content: "";
+                background: rgba(white, 0.3);
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            .views-field-field-imagen-del-articulo img {
+                max-width: 120%;
+                width: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+     }
      @media (min-width: 1100px) {
          .main_container {
               .section_content {
@@ -215,7 +261,7 @@
          .content {
             .modal-dialog {
                width: 600px;
-               margin: 15% auto;
+               margin: 3% auto;
             }
          }
          .row-center-sm {
