@@ -2,7 +2,7 @@
 angular.module('snippet', [])
 .controller('CsvTable1Ctrl', ["$scope", "$http", function($scope, $http){
 	//$scope.test = ":v";
-	$http.get("https://raw.githubusercontent.com/cier-centro/edu-adultos/master/data/tabla1.csv").then(function(response) {
+	$http.get("http://52.37.84.217/edu-adultos/data/tabla1.csv").then(function(response) {
 		var rows = response.data.split("\n").map(function(rowString){
 			return rowString.split(",");
 		});
@@ -16,7 +16,7 @@ angular.module('snippet', [])
 }])
 .controller('CsvTable4Ctrl', ["$scope", "$http", function($scope, $http){
 	//$scope.test = ":v";
-	$http.get("https://raw.githubusercontent.com/cier-centro/edu-adultos/master/data/tabla4.csv").then(function(response) {
+	$http.get("http://52.37.84.217/edu-adultos/data/tabla4.csv").then(function(response) {
 		var rows = response.data.split("\n").map(function(rowString){
 			return rowString.split(',');
 		});
@@ -32,7 +32,7 @@ angular.module('snippet', [])
 }])
 .controller('CsvTable5Ctrl', ["$scope", "$http", function($scope, $http){
 	//$scope.test = ":v";
-	$http.get("https://raw.githubusercontent.com/cier-centro/edu-adultos/master/data/tabla5.csv").then(function(response) {
+	$http.get("http://52.37.84.217/edu-adultos/data/tabla5.csv").then(function(response) {
 		var rows = response.data.split("\n").map(function(rowString){
 			return rowString.split(",");
 		});
